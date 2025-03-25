@@ -1,5 +1,5 @@
 
-# Contact List App Testing Suite
+# Contact List
 This repository contains automated tests for the Contact List App, a web application that allows users to sign up, sign in and manage their contacts. The tests are written using Cypress.
 
  ## Project Overview
@@ -25,11 +25,11 @@ Have a browser installed on your computer.
 
 Open a command line terminal (Git bash preferably) and navigate to a directory where you would like to save the work folder using cd.
 
-Clone the repository with git clone https://github.com/ScriptsfromZee/Contact-List-App
+Clone the repository with git clone https://github.com/ScriptsfromZee/ContactList
 
 Once you are done cloning, you should navigate to the folder you cloned.
 
-You should type: "cd Contact-List-App"
+You should type: "cd ContactList"
 
 This command will move you into that directory.
 

@@ -1,0 +1,29 @@
+
+{
+  "credentials": {
+    "firstName": "input[id='firstName']",
+    "lastName": "input[id='lastName']" ,
+    "userEmail" : "input[id='email']",
+    "userEmailValue" : "terwe5tt6rnest444@mailinator.com",
+    "userPassword": "input[type='password']",
+    "userPasswordValue" : "20December",
+    "birthDate": "input[id='birthdate']",
+    "phoneNumber": "input[id='phone']",
+    "userStreet1": "input[id='street1']",
+    "userStreet2": "input[id='street2']",
+    "userCity": "input[id='city']",
+    "userProvince": "input[id='stateProvince']",
+    "userPostalcode": "input[id='postalCode']",
+    "userCountry": "input[id='country']"
+  },
+  "buttons": {
+    "signUp": "button[id='signup']",
+    "submitButton" : "button[id='submit']",
+    "logOut": "button[id='logout']",
+    "addContact": "button[id='add-contact']"
+
+  }
+}
+
+
+

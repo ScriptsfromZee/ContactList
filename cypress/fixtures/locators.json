@@ -4,7 +4,7 @@
     "firstName": "input[id='firstName']",
     "lastName": "input[id='lastName']" ,
     "userEmail" : "input[id='email']",
-    "userEmailValue" : "terweedd563365rrtt6rnest444@mailinator.com",
+    "userEmailValue" : "terweedd563365rrtt6rnest45444@mailinator.com",
     "userPassword": "input[type='password']",
     "userPasswordValue" : "20December",
     "birthDate": "input[id='birthdate']",

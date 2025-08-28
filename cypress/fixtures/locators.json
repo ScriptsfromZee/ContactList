@@ -16,12 +16,12 @@
     "userPostalcode": "input[id='postalCode']",
     "userCountry": "input[id='country']"
   },
+
   "buttons": {
     "signUp": "button[id='signup']",
     "submitButton" : "button[id='submit']",
     "logOut": "button[id='logout']",
     "addContact": "button[id='add-contact']"
-
   },
 
   "signUp":{

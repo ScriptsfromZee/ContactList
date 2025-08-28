@@ -24,8 +24,8 @@ describe('Contact List Suite', () => {
 
     // Click on the Sign Up button
     cy.get(buttons.signUp).click();
-   
-    // Fill out the sign-up form. Remember to change details to rerun test if not you get an error of "This email is already registered"
+
+    // Fill out the sign-up form. Remember to change the email to rerun test if not you get an error of "This email is already registered"
     cy.get(credentials.firstName).type(signUp.firstName);
     cy.get(credentials.lastName).type(signUp.lastName);
     cy.get(credentials.userEmail).type(credentials.userEmailValue);

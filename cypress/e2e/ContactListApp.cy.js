@@ -102,9 +102,8 @@ describe('Contact List Suite', () => {
     cy.get(buttons.submitButton).click();
     cy.log('User has Successfully Added another Contact');
 
-    // Submit the contact form 
-    cy.wait(2000)
-    cy.get(buttons.logOut).click()
+    // Submit the contact form
+    cy.get(buttons.logOut).should('be.visible').click()
   });
 
 });

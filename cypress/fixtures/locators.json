@@ -4,7 +4,7 @@
     "firstName": "input[id='firstName']",
     "lastName": "input[id='lastName']" ,
     "userEmail" : "input[id='email']",
-    "userEmailValue" : "terwe5tt6rnest444@mailinator.com",
+    "userEmailValue" : "terwe5rrtt6rnest444@mailinator.com",
     "userPassword": "input[type='password']",
     "userPasswordValue" : "20December",
     "birthDate": "input[id='birthdate']",
@@ -22,6 +22,25 @@
     "logOut": "button[id='logout']",
     "addContact": "button[id='add-contact']"
 
+  },
+
+  "signUpData":{
+    "firstName": "Ernest",
+    "lastName": "Terwe"
+  },
+
+  "addContact":{
+    "firstName": "Leighton",
+    "lastName": "Meester",
+    "birthDate": "1994-05-23",
+    "userEmail": "leighton@mailinator.com",
+    "phoneNumber": "09020424654",
+    "userStreet1": "Woji",
+    "userStreet2": "Elejiji",
+    "userCity": "Port Harcourt",
+    "userProvince": "Rivers",
+    "userPostalcode": "500102",
+    "userCountry": "Nigeria"
   }
 }
 

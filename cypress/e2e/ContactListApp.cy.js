@@ -1,10 +1,15 @@
 describe('Contact List Suite', () => {
   let credentials
   let buttons
+  let signUpData
+  let addContactData
+
   beforeEach(() => {
     cy.fixture('locators').then((data) => {
       credentials = data.credentials;
       buttons = data.buttons
+      signUpData = data.signUpData
+      addContactData = data.addContact
     });
   });
 
@@ -19,9 +24,9 @@ describe('Contact List Suite', () => {
     cy.get(buttons.signUp).click();
    
 
-    // Fill out the sign-up form
-    cy.get(credentials.firstName).type('Ernest');
-    cy.get(credentials.lastName).type('Jones');
+    // Fill out the sign-up form. Remember to change details to rerun test if not you get an error of "This email is already registered"
+    cy.get(credentials.firstName).type(signUpData.firstName);
+    cy.get(credentials.lastName).type(signUpData.lastName);
     cy.get(credentials.userEmail).type(credentials.userEmailValue);
     cy.get(credentials.userPassword).should('be.visible').type(credentials.userPasswordValue);
     // Submit the sign-up form
@@ -52,21 +57,21 @@ describe('Contact List Suite', () => {
 
     // Fill out the contact form
     // To rerun test, edit contact details so as not have the same contact multiple times
-    cy.get(credentials.firstName).type('Leighton');
-    cy.get(credentials.lastName).type('Grade');
-    cy.get(credentials.birthDate).type('1994-05-23');
-    cy.get(credentials.userEmail).type('grade@mailinator.com');
-    cy.get(credentials.phoneNumber).type('09020424654');
-    
+    cy.get(credentials.firstName).type(addContactData.firstName);
+    cy.get(credentials.lastName).type(addContactData.lastName);
+    cy.get(credentials.birthDate).type(addContactData.birthDate);
+    cy.get(credentials.userEmail).type(addContactData.userEmail);
+    cy.get(credentials.phoneNumber).type(addContactData.phoneNumber);
+
     // Address details
-    cy.get(credentials.userStreet1).type('Woji');
-    cy.get(credentials.userStreet2).type('Elejiji');
-    cy.get(credentials.userCity).type('Port Harcourt');
-    cy.get(credentials.userProvince).type('Rivers');
-    cy.get(credentials.userPostalcode).type('500102');
-    
+    cy.get(credentials.userStreet1).type(addContactData.userStreet1);
+    cy.get(credentials.userStreet2).type(addContactData.userStreet2);
+    cy.get(credentials.userCity).type(addContactData.userCity);
+    cy.get(credentials.userProvince).type(addContactData.userProvince);
+    cy.get(credentials.userPostalcode).type(addContactData.userPostalcode);
+
     // Country details
-    cy.get(credentials.userCountry).type('Nigeria');
+    cy.get(credentials.userCountry).type(addContactData.userCountry);
 
     // Submit the contact form
     cy.get(buttons.submitButton).click();

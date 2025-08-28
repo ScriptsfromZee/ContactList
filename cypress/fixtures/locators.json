@@ -4,7 +4,7 @@
     "firstName": "input[id='firstName']",
     "lastName": "input[id='lastName']" ,
     "userEmail" : "input[id='email']",
-    "userEmailValue" : "terwe5rrtt6rnest444@mailinator.com",
+    "userEmailValue" : "terweedd563365rrtt6rnest444@mailinator.com",
     "userPassword": "input[type='password']",
     "userPasswordValue" : "20December",
     "birthDate": "input[id='birthdate']",
@@ -24,12 +24,12 @@
 
   },
 
-  "signUpData":{
+  "signUp":{
     "firstName": "Ernest",
     "lastName": "Terwe"
   },
 
-  "addContact":{
+  "addContact1":{
     "firstName": "Leighton",
     "lastName": "Meester",
     "birthDate": "1994-05-23",
@@ -41,6 +41,20 @@
     "userProvince": "Rivers",
     "userPostalcode": "500102",
     "userCountry": "Nigeria"
+  },
+
+  "addContact2":{
+    "firstName": "Blake",
+    "lastName": "Lively",
+    "birthDate": "1990-08-15",
+    "userEmail": "blake@mailinator.com",
+    "phoneNumber": " +256752123111",
+    "userStreet1": "Nkrumah Road",
+    "userStreet2": "Kampala Road",
+    "userCity": "Uganda City",
+    "userProvince": "Central Region",
+    "userPostalcode": "256",
+    "userCountry": "Uganda"
   }
 }
 
